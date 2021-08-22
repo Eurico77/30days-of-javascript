@@ -10,10 +10,7 @@ const catalogo = {
   400: ['Bauru', 7.5],
   500: ['Refrigerante', 3.5],
   600: ['Suco', 2.8],
-  nome: ['eurico', 22],
 };
-
-console.log(catalogo[100]);
 
 let pedidoCliente = [
   [00, 2],
@@ -21,8 +18,6 @@ let pedidoCliente = [
   [500, 5],
   [600, 2],
 ];
-
-console.log(catalogo[1]);
 
 const getNome = (catalogo, codigo) => {
   console.log(catalogo[codigo]);
@@ -66,4 +61,4 @@ const conferirPedidos = (catalogo, pedidoCliente) => {
 let valorComanda = padraoReal.format(somarComanda(catalogo, pedidoCliente));
 
 console.log(conferirPedidos(catalogo, pedidoCliente));
-// console.log('Total = ' + valorComanda);
+console.log('Total = ' + valorComanda);
