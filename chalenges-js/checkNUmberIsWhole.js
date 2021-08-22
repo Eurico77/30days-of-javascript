@@ -15,6 +15,8 @@ function myFunction2(input) {
   return input - Math.floor(input) === 0;
 }
 
+console.log('eurico');
+
 function myFunction(input) {
   return console.log(Number.isInteger(input));
 }
