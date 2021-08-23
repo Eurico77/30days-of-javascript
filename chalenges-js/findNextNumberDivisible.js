@@ -10,6 +10,8 @@ function myFunction(x, y) {
   return x;
 }
 
+console.log('eurico');
+
 console.log(myFunction(1, 23));
 console.log(myFunction(23, 23));
 console.log(myFunction(7, 3));
